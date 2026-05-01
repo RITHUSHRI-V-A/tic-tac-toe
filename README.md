@@ -75,7 +75,7 @@ tic-tac-toe/
 
 ## Live Demo
 
-*(To be added using GitHub Pages)*
+*((https://github.com/RITHUSHRI-V-A/tic-tac-toe))*
 
 ---
 
