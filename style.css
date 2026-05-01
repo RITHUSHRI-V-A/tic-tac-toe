@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neonderthaw-regular {
+    font-family: "Neonderthaw", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.jacques-francois-shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-style: normal;
+   
+  }
+  
+.overlay{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: aqua;
+    font-family: "Neonderthaw", cursive;
+    font-size: 80px;
+    display: none;
+    background-color: rgb(0, 0, 0, 0.7); 
+    pointer-events: none;
+    z-index: 2;
+}
+#resetbutton{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: none;
+    background: url(images/replayicon.jpg) no-repeat center;
+    background-size: 70px;
+    background-color: #000000;
+    cursor: pointer;
+    border: none;
+    z-index: 3;
+}
+.board{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,100px);
+    
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #8f4035;
+    box-shadow: 0 0 10px #6b0e0e;
+
+}
+.clicked{
+    pointer-events: none;
+}
+.blueborder{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #38358f;
+    box-shadow: 0 0 10px #400c63;
+}
+
+.cell:hover{
+    background-color: #0d0c0c;
+}
+.bluelayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, black, #0d0e52);
+}
+.bluecolor{
+    color: blue;
+    font-size: 64px;
+    text-shadow: 0 0 5px #1015ae, 0 0 10px #1010ae;
+    font-family: "Jacques Francois Shadow", serif;
+
+}
+.blueboard{
+    border: 1px solid #110d32;
+}
+.redlayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, black, #53140e);
+    
+}
+.redcolor{
+    color: rgb(255, 55, 55);
+    font-size: 64px;
+    text-shadow: 0 0 5px #ae1010, 0 0 10px #ae1010;
+    font-family: "Jacques Francois Shadow", serif;
+
+    
+}
+.redboard{
+    border: 1px solid #320d0d;
+}
