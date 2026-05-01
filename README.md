@@ -13,7 +13,7 @@ This project implements the classic Tic Tac Toe game with an interactive and res
 
 ## Preview
 
-![Tic Tac Toe Screenshot](images/screenshot.png)
+![Tic Tac Toe Screenshot](images/Screenshot.png)
 
 ---
 
